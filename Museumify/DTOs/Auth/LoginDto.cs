@@ -10,6 +10,7 @@ namespace Museumify.DTOs.Auth
 
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; } = string.Empty;
+        /// <summary>
     }
 }
 
